@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Simple Weather App Design</title>
+ <link rel="stylesheet" href="./style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl7/1IbIHUzLlLhl6Q7ZQdC6BksJ9iE9Mj4Uz4kgId" crossorigin="anonymous">
+
+
+ 
+
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <div class="weather-side">
+    <div class="weather-gradient"></div>
+    <div class="date-container">
+      <h2 class="date-dayname" id="day-name"></h2>
+      <span class="date-day" id="day"></span>
+      <i class="location-icon" data-feather="map-pin"></i><span id="locations" class="location"></span>
+    </div>
+    <div class="weather-container"><i class="weather-icon" data-feather="sun"></i>
+      <h1 class="weather-temp" id="temp"></h1>
+      <h3 class="weather-desc" id="desc"></h3>
+    </div>
+  </div>
+  <div class="info-side">
+      <div class="today-info">
+        <form id="location-form">
+          <div class="select-menu">
+            <div class="select-row">
+            <label for="countrySelect"><h5>Select Country</h5></label>
+            <label id="label-city" for="countrySelect"><h5>Select City</h5></label>
+         
+            </div>
+            <div class="select-row">
+              <select value="" class="form-select1" aria-label="Default select example" id="countrySelect">
+                <option selected>Countries</option>
+              </select> 
+              <select value="" class="form-select2" aria-label="Default select example" id="citySelect">
+                <option selected>Cities</option>
+              </select>
+            </div>
+          </div>
+       
+           
+              <button type="submit" class="location-button" id="select-location">  <img src="./location.png" alt="Location Icon" /> <span>Get Selected Location</span></button>
+              <button class="location-button" id="userLocation"> <img src="./location.png" alt="Location Icon" /><span>Get My Location</span></button>
+        </form>
+      
+ 
+      </div>
+    
+  </div>
+</div>
+
+
+  <script  src="./script.js"></script>
+  
+  
+ 
+
+</body>
+</html>
