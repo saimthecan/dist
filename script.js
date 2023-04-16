@@ -6,7 +6,9 @@ document.getElementById("location-form").addEventListener("submit", getWeather);
 const getWeatherButton = document.getElementById('userLocation');
 getWeatherButton.onclick = getWeatherFromLocation;
 
-const API_KEY = process.env.API_KEY;
+const API_KEY = "854312915ee06dc91df05e3b53609c26"
+
+
 
 
 async function fetchCountries() {
