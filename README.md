@@ -1,5 +1,7 @@
 # Weather App
 
+https://saimthecan-weather-app.netlify.app/
+
 The purpose of the application is to display weather information.
 
 ![page view](./weather-app.PNG)
@@ -11,6 +13,3 @@ The purpose of the application is to display weather information.
 * You can view the weather forecast for your own location directly.
 * On the weather display screen, you can view the current date, day, location, temperature, and weather description.
 
-## App Demo
-
-https://saimthecan-weather-app.netlify.app/
