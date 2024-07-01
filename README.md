@@ -4,7 +4,7 @@ https://saimthecan-weather-app.netlify.app/
 
 The purpose of the application is to display weather information.
 
-![page view](./weather-app.PNG)
+![page view](./ReadmePic/weather-app.PNG)
 
 ## Features
 
